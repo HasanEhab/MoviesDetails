@@ -1,0 +1,130 @@
+body{
+    background-color:#00161f;
+    color: blanchedalmond;
+}
+body::after {
+    content: "";
+    background-image: url('./assets/pexels-daniel-absi-952670.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    opacity: 0.1;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    position: fixed;
+    z-index: -1;   
+  }
+
+.rate{
+    position: absolute;
+    top: 0%;
+    right: 15%;
+    background-color:rgba(226, 192, 40, 0.877);
+    font-size: 1.5rem;
+    padding: 8px 5px  ;
+    min-width: 45px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 3px 3px 10px 2px  black;
+}
+
+.logo{
+    width: 50px;
+    height: 35px;
+    background-image:url(./assets/-logo.png);
+    background-position: center center;
+    background-size: 100% ;
+}
+
+.mar{
+    margin-right: 100px;
+}
+
+.nav-properties{
+    background-color:#00161f;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    border-bottom: rgba(255, 255, 255, 0.616) 2px solid;
+}
+
+.remove-style{
+    text-decoration: none;
+    color: white;
+}
+
+.img-box{
+    border-radius: 3% ;
+}
+
+
+.s-back{
+    background-color:rgba(0, 0, 0, 0.356);
+
+}
+.site-head{
+font-weight: bold;
+text-align: center;
+opacity: 0.7;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 30px;
+color: white;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .site-head{
+        font-size:2.5rem ;
+        letter-spacing:.5rem;
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .site-head{
+        font-size:3rem ;
+        letter-spacing:.5rem;
+    } }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .site-head{
+        font-size:3.5rem ;
+        letter-spacing:1rem;
+    } }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .site-head{
+        font-size:4rem ;
+        letter-spacing:1rem;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .site-head{
+        font-size:4rem ;
+        letter-spacing:1rem;
+    } 
+ }
+
+ .nav-li{
+
+    font-family:sans-serif;
+    color: white;
+    font-size: 1.1rem;
+
+ }
+
+
+ a:hover{
+     color: rgb(116, 116, 116);
+
+ }
